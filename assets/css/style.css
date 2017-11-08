@@ -1,0 +1,28 @@
+body{
+	margin:0px;
+	background:#0079BF;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+	background: #FFFFFF;
+	width: 100%;
+	border:1px solid black;
+	height: 100px;
+	z-index: 1;
+}
+
+.logo{
+	width: 100px;
+	margin-left: 600px;
+	margin-top:25px;
+
+}
+.tablPerson{
+	color:#FFFFFF;
+	margin-left: 40PX;
+}
+
+.input-titulo{
+	display: none;
+}
