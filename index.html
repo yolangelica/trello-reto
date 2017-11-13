@@ -2,29 +2,41 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>TRELLO</title>
+	<title>Trello</title>
 	<link rel="stylesheet" href="assets/css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 </head>
-<header>
-	
-		<img class="logo" src="assets/img/Trello_logo.png" alt="">
-		
-</header>
 <body>
 	<nav>
-		<h1 class="tablPerson">Tableros personales</h1>
+		<ul class="list1">
+			<div class="firstList">
+				<li class="table">Tableros</li><!--titulo tableros-->
+			</div>
+			<div class="secondList">
+				<li><input type="text"></li><!--input de tableros-->
+			</div>
+			<div class="thirdList">
+				<img class="imgLogo" src="assets/img/Trello_logo.png" alt="">
+			
+			</div>			
+			
+		</ul>
 	</nav>
-	<section id="containerTarea">
-		<div>
-		<input type="tarea" name="" id="boton_principal" placeholder="Add list">
-	</div>
-	<div id="tareas">
+	<!--encabezado-->
+	<header>
+		<ul class="list2">
+			<li>Tablero - Reto de Código</li>
 		
+				<li class="small menu">Mostrar Menu</li></div>
+			
+		</ul>
+	</header>
+
+	<div id="containerButton">
+		<button id="listBtn" type="text" class="btn1" onclick="createList()">Añadir una lista...</button>  
 	</div>
-</section>
 
-
-	<script type="text/javascript" src="assets/app.js"></script>
+	<link rel="stylesheet" href="assets/css/font-awesome-4.7.0">
+	<script src="assets/app.js"></script>
 </body>
+</html>
 </html>
